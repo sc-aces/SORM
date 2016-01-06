@@ -1,0 +1,196 @@
+/*Created for the Association Of Capitalists, Explorers, & Soldiers (ACES) 
+	by Daniel Lennox(MobiusKiller), April 7 2015, V1.0*/
+
+.SORMwrapper *{margin:0; padding: 0; box-sizing: border-box;}
+.SORMwrapper{margin-right:auto; margin-left:auto; height:auto; max-width:1122px; width:100%; background:black;}
+.SORMContentContainer{word-wrap:break-word;}
+
+.linkSection{height: auto; width: inherit; min-height: 80%; margin-top:-10px; padding-bottom:10px;}
+.introLinkSection{background-image: url("../images/introBG.png"); height: auto; width: inherit; margin-top:-10px; padding-bottom:10px;}
+
+#sec-home.linkSection{height: 100%; max-height:1600px; background-image: url("../images/titleBG.png"); min-height:560px;}
+#sec-home .sectionContainer h1{
+	margin: 0 auto; font-variant: small-caps; font-size: 3em; text-align: center; 
+	font-family:"GILLS SANS MT", sans-serif; color: white; width: 100%; background: rgb(0,0,0); 
+	background: rgba(0,0,0,.5);
+}
+#sec-home .sectionContainer{width:100%;}
+.acesLogo{margin:5% auto; display:block; max-width:633px; width:100%;}
+
+.sectionContainer{width: 85%; margin: 0 auto; color: white; font-size: 1.15em; word-wrap:break-word;}
+.sectionContainer li{margin: 10px 0;}
+.sectionContainer a:visited, .sectionContainer a{color: #DCBC00;}
+.sectionContainer a:hover, .sectionContainer a:active{color:#0C6471; text-decoration:none;}
+
+.sectionContainer table{color:white; padding:0; margin:0; border-collapse:collapse; text-align:center;}
+.sectionContainer table tr:nth-child(odd){background:black; background-color:rgba(0,0,0,.5);}
+.sectionContainer table tr:first-child{background:none;}
+.sectionContainer table th{padding:5px 10px; color:#231f20;
+background: rgb(220,188,0);
+background: -moz-linear-gradient(top, rgba(220,188,0,1) 0%, rgba(220,188,0,1) 33%, rgba(244,116,33,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220,188,0,1)), color-stop(33%,rgba(220,188,0,1)), color-stop(100%,rgba(244,116,33,1)));
+background: -webkit-linear-gradient(top, rgba(220,188,0,1) 0%,rgba(220,188,0,1) 33%,rgba(244,116,33,1) 100%);
+background: -o-linear-gradient(top, rgba(220,188,0,1) 0%,rgba(220,188,0,1) 33%,rgba(244,116,33,1) 100%);
+background: -ms-linear-gradient(top, rgba(220,188,0,1) 0%,rgba(220,188,0,1) 33%,rgba(244,116,33,1) 100%);
+background: linear-gradient(to bottom, rgba(220,188,0,1) 0%,rgba(220,188,0,1) 33%,rgba(244,116,33,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcbc00', endColorstr='#f47421',GradientType=0 );
+
+}
+.sectionContainer table th:first-child{border-top-left-radius:20px;}
+.sectionContainer table th:last-child{border-top-right-radius:20px;}
+.sectionContainer table td{padding:10px 10px;}
+.tableSpanTitle{font-size:1.3em;}
+
+.sectionTitle{
+	font-size: 2.6em; text-align: center; width: 100%; height: auto; min-height:75px; 
+	margin: 0 0 20px 0; color: #DCBC00; font-weight:bold; font-family:"GILLS SANS MT", sans-serif;
+	font-variant:small-caps; vertical-align:middle; line-height:75px;
+	background: rgb(30,30,30);
+	background: -moz-linear-gradient(top, rgba(30,30,30,1) 0%, rgba(96,96,96,1) 50%, rgba(30,30,30,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,30,30,1)), color-stop(50%,rgba(96,96,96,1)), color-stop(100%,rgba(30,30,30,1)));
+	background: -webkit-linear-gradient(top, rgba(30,30,30,1) 0%,rgba(96,96,96,1) 50%,rgba(30,30,30,1) 100%);
+	background: -o-linear-gradient(top, rgba(30,30,30,1) 0%,rgba(96,96,96,1) 50%,rgba(30,30,30,1) 100%);
+	background: -ms-linear-gradient(top, rgba(30,30,30,1) 0%,rgba(96,96,96,1) 50%,rgba(30,30,30,1) 100%);
+	background: linear-gradient(to bottom, rgba(30,30,30,1) 0%,rgba(96,96,96,1) 50%,rgba(30,30,30,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#1e1e1e',GradientType=0 );
+}
+
+.push250px{height: 250px;}
+.push5perc{height: 10%; clear:both;}
+
+.fontColorOrange{color: #DCBC00;}
+
+.sectionContainer ol, .sectionContainer ul{margin-left: 45px;}
+	.noListStyle{list-style-type: none;}
+	.numeric{list-style-type: decimal;}
+	.alphaLower{list-style-type: lower-alpha;}
+	.romanLower{list-style-type: lower-roman;}
+	.squareDot{list-style-type: square;}
+
+.alphaOrderedListTitle{font-size: 1.2em; font-weight: bold; color: #DCBC00;}
+
+.categoryTitle{
+	height: auto; min-height:50px; font-size: 1.6em; 
+	width: 100%; text-align: center; vertical-align: middle; color: black; font-weight:bold;
+	line-height: 45px; font-variant:small-caps; font-family:"GILLS SANS MT", sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+0,f8b500+0,f8b500+0,f8b500+23,fccd4d+82,fbdf93+100&0+0,0.9+50,0+100 */
+	background: -moz-linear-gradient(left, rgba(248,181,0,0) 0%, rgba(248,181,0,0.41) 23%, rgba(250,192,35,0.9) 50%, rgba(252,205,77,0.32) 82%, rgba(251,223,147,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(248,181,0,0) 0%,rgba(248,181,0,0.41) 23%,rgba(250,192,35,0.9) 50%,rgba(252,205,77,0.32) 82%,rgba(251,223,147,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(248,181,0,0) 0%,rgba(248,181,0,0.41) 23%,rgba(250,192,35,0.9) 50%,rgba(252,205,77,0.32) 82%,rgba(251,223,147,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8b500', endColorstr='#00fbdf93',GradientType=1 ); /* IE6-9 */
+}
+.categoryTitle a{color:inherit;}
+.categoryTitleTop{margin-top:-20px; border-top-left-radius:0; border-top-right-radius:0;}
+
+.SORMnav ol{list-style: none; margin-left: 150px;}
+.SORMnav ol li{height:50px; background: linear-gradient(#292929, #242424); position:relative;}
+
+/*Modified version of http://codepen.io/SaraSoueidan/pen/bogtz*/
+.SORMnav-container{
+	width:70px;
+	margin-top:10px;
+	margin-bottom: auto;
+	margin-left: 1px;
+	box-shadow: 0 2px 2px 2px black;
+	transition: all 0.3s linear;
+	position: fixed;
+	list-style: none;
+}
+.SORMnav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.SORMnav-container li{
+	height:50px; 
+	position:relative;
+	background: linear-gradient(#292929, #242424);
+}
+.SORMnav-container a {
+	border-top: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid black;
+	text-decoration:none;
+	display:block;
+	height:100%;
+	width:100%;
+	line-height:50px;
+	color:#bbb;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left:25%;
+	border-left:5px solid transparent;
+	letter-spacing:1px;
+	transition: all 0.3s linear;
+}
+.SORMactive a{
+	color: #DCBC00;
+	border-left:5px solid #DCBC00;
+	background-color: #1B1B1B;
+	outline:0;
+}
+.SORMnav li:not(.SORMactive):hover a{
+	color: #eee;
+	border-left: 5px solid #FCFCFC;
+	background-color: #1B1B1B;
+}
+.SORMnav-container span[class ^= "icon"]{
+	position:absolute;
+	left:20px;
+	font-size: 1.5em;
+	transition: all 0.3s linear;
+}
+
+.text{display: none;}
+.SORMnav-container a:hover{
+	width:450px; 
+	z-index:1;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid black;
+	box-shadow: 0 0 1px 1px black;
+}
+.SORMnav-container a:hover .text {
+	display:block;
+	padding-left:55px;
+}
+/*end*/
+
+.SORMnav-container .icon span{height: 50px;}
+.SORMnav-container .icon i{vertical-align: middle; line-height: 50px;}
+
+.codeBlock{
+		width:99%; margin:15px auto; padding: 15px; background:#0a0a0a; 
+		border:1px solid #DCBC00; border-radius:15px;
+		font-family: Monaco, 'Courier New', monospace; font-size:.75em;
+}
+.codeBlock p{max-width:95%; word-wrap:break-word;}
+.footNote{font-size:.5em;}
+.indent3em{padding-left:3em;}
+#sec-adminChecklist, #sec-councillorHandbook, #sec-structureRules, #sec-generalRules{
+	background: -moz-linear-gradient(left, rgba(14,14,14,1) 0%, rgba(96,96,96,0.5) 50%, rgba(14,14,14,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(14,14,14,1)), color-stop(50%,rgba(96,96,96,0.5)), color-stop(100%,rgba(14,14,14,1)));
+	background: -webkit-linear-gradient(left, rgba(14,14,14,1) 0%,rgba(96,96,96,0.5) 50%,rgba(14,14,14,1) 100%);
+	background: -o-linear-gradient(left, rgba(14,14,14,1) 0%,rgba(96,96,96,0.5) 50%,rgba(14,14,14,1) 100%);
+	background: -ms-linear-gradient(left, rgba(14,14,14,1) 0%,rgba(96,96,96,0.5) 50%,rgba(14,14,14,1) 100%);
+	background: linear-gradient(to right, rgba(14,14,14,1) 0%,rgba(96,96,96,0.5) 50%,rgba(14,14,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#0e0e0e',GradientType=1 );
+}
+
+
+/*Enjin Adjustments*/
+
+.m_html{padding:0;}
+.m_html ul, .m_html ol{list-style: inherit;}/*override for nav*/
+.m_html ul{list-style-type:auto;}/*override for nav*/
+
+.SORMnav-container{white-space: nowrap !important;}
+.SORMContentContainer{list-style:inherit;}
+#sec-home .sectionContainer h1{font-size:5em; padding: 15px 0; font-weight:bold; line-height:100%;}
+.acesLogo{max-width:633px !important;}
+.SORMnav{margin-left:-10px;}
+.push5perc{line-height:500%;}
+.noListStyle{list-style-type: none !important;}
+.numeric{list-style-type: decimal !important;}
+.alphaLower{list-style-type: lower-alpha !important;}
+.romanLower{list-style-type: lower-roman !important;}
+.squareDot{list-style-type: square !important;}
+.codeBlock p{ font-size: 1.2em;}
